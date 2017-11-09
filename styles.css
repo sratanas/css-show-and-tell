@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(253, 121, 5);
+}
+
+#titleCoolThing{
+    
+    text-align: center;
+    padding: 10px;
+    font-size: 72px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(146, 225, 247)
+
+
+}
+
+.kevDog {
+    float: left;
+    padding-left:10px;
+    margin: 15px;
+}
+
+#kev:hover {
+    border-style: dotted;
+    border-width: 20px;
+    border-color:rgb(197, 58, 84);
+    border-radius: 0px;
+    padding:5px;
+    
+}
+
+#kev2:hover {
+    border-style: outset;
+    border-width: 20px;
+    border-color:green;
+    border-radius: 20px;
+    
+}
+
+#kev3:hover {
+        border: 25px solid transparent;
+        padding: 5px;
+        border-image:url(bigTennisBallBorder.png) 32% round;
+    
+    }
